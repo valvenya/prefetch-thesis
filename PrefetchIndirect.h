@@ -1,5 +1,5 @@
-#ifndef PGDLO_TRANSFORMS_FIELD_REORDERING
-#define PGDLO_TRANSFORMS_FIELD_REORDERING
+#ifndef PREFETCH_INDIRECT
+#define PREFETCH_INDIRECT
 
 #include "llvm/Passes/PassBuilder.h"
 #include "llvm/Passes/PassPlugin.h"
@@ -571,4 +571,4 @@ struct PrefetchIndirect : PassInfoMixin<PrefetchIndirect> {
     
 };
 
-#endif //PGDLO_TRANSFORMS_FIELD_REORDERING
+#endif //PREFETCH_INDIRECT

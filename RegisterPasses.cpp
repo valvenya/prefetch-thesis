@@ -5,7 +5,7 @@
 //-----------------------------------------------------------------------------
 
 llvm::PassPluginLibraryInfo getPluginInfo() {
-    return {LLVM_PLUGIN_API_VERSION, "Transforms", LLVM_VERSION_STRING,
+    return {LLVM_PLUGIN_API_VERSION, "Prefetch", LLVM_VERSION_STRING,
             [](PassBuilder &PB) {
                 PB.registerPipelineParsingCallback(
                     [](StringRef Name,  FunctionPassManager &FPM,

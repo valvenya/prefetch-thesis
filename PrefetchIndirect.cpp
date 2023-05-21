@@ -358,5 +358,3 @@ PreservedAnalyses PrefetchIndirect::run(Function &F, FunctionAnalysisManager &FA
     
     return PreservedAnalyses::all();
 }
-
-//} // namespace
